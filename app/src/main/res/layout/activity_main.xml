@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:text="WAFER DIAGNOSTIC TOOLS"
+        android:textColor="@color/colorPrimary"
+        android:textSize="50sp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="open1"
+        android:text="Alingment"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="open2"
+        android:text="Edge Leveling"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="open3"
+        android:text="Particle"
+        android:textSize="20sp"/>
+
+</LinearLayout>

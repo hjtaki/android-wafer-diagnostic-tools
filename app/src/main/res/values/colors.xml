@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="trans">#00000000 </color>
+
+    <color name="blue">#4e6af4</color>
+    <color name="lightblue">#7c92ff</color>
+    <color name="green">#7cff99</color>
+    <color name="yellow">#fff87c</color>
+    <color name="orange">#ffcd7c</color>
+    <color name="red">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="defaultwafer">#8db5d3</color>
+    <color name="darkGreen">#437c1e</color>
+    <color name="darkYellow">#7a7c1e</color>
+    <color name="darkOrange">#7c581e</color>
+    <color name="darkRed">#7c2e1e</color>
+    <color name="background">#fafafa</color>
+
+</resources>

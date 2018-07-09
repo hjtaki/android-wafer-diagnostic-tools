@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">diagnostic_test_tools</string>
+    <string name="title_activity_edge_level">EdgeLevel</string>
+</resources>

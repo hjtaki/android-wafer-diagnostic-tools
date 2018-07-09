@@ -1,0 +1,1746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EdgeLeveling">
+
+
+    <ImageView
+        android:id="@+id/imageView150"
+        android:layout_width="182dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="29dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView151"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/waferimageView150"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle_350x350" />
+
+    <ImageView
+        android:id="@+id/waferimageView150"
+        android:layout_width="166dp"
+        android:layout_height="156dp"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edge"
+        app:layout_constraintBottom_toTopOf="@+id/imageView151"
+        app:layout_constraintEnd_toStartOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="168dp"
+        android:layout_height="168dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="14"
+        android:rowCount="14"
+        app:layout_constraintBottom_toTopOf="@+id/imageView151"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!--row 0-->
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="0"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="0"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="0"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="0"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+
+        <!--row 1-->
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView7"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView8"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView9"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView10"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="1"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+
+        <!--row 2-->
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView14"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView15"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView16"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView17"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView18"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView19"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView20"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView21"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="2"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row3-->
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView24"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView25"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView26"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView27"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView28"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView29"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView30"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView31"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView32"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView33"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="3"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row4-->
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView36"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView37"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView38"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView39"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView40"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView41"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView42"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView43"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView44"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView45"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="4"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row5-->
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView48"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView49"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView50"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView51"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView52"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView53"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView54"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView55"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView56"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView57"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView58"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView59"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="13"
+            android:layout_margin="0.8dp"
+            android:layout_row="5"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 6-->
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView62"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView63"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView64"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView65"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView66"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView67"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView68"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView69"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView70"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView71"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView72"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView73"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="13"
+            android:layout_margin="0.8dp"
+            android:layout_row="6"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 7-->
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView76"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView77"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView78"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView79"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView80"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView81"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView82"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView83"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView84"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView85"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView86"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView87"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="13"
+            android:layout_margin="0.8dp"
+            android:layout_row="7"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 8-->
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="0"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView90"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView91"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView92"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView93"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView94"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView95"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView96"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView97"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView98"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView99"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView100"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView101"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="13"
+            android:layout_margin="0.8dp"
+            android:layout_row="8"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 9-->
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView104"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView105"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView106"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView107"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView108"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView109"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView110"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView111"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView112"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView113"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="9"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 10-->
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="1"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView116"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView117"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView118"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView119"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView120"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView121"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView122"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView123"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView124"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView125"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="12"
+            android:layout_margin="0.8dp"
+            android:layout_row="10"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 11-->
+        <ImageView
+            android:id="@+id/imageView23"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="2"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView128"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView129"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView130"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView131"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView132"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView133"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView134"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView135"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="11"
+            android:layout_margin="0.8dp"
+            android:layout_row="11"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 12-->
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="3"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView25"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="4"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView139"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView140"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView141"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/waferimageView142"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/defaultwafer"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="9"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="10"
+            android:layout_margin="0.8dp"
+            android:layout_row="12"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <!--row 13-->
+        <ImageView
+            android:id="@+id/imageView26"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="5"
+            android:layout_margin="0.8dp"
+            android:layout_row="13"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="6"
+            android:layout_margin="0.8dp"
+            android:layout_row="13"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="7"
+            android:layout_margin="0.8dp"
+            android:layout_row="13"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_column="8"
+            android:layout_margin="0.8dp"
+            android:layout_row="13"
+            android:background="@color/colorPrimary"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+
+    </GridLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="371dp"
+        android:layout_height="169dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView151"
+        app:layout_constraintVertical_bias="0.812" />
+
+    <ImageView
+        android:id="@+id/imageView151"
+        android:layout_width="286dp"
+        android:layout_height="29dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534"
+        app:srcCompat="@drawable/spec_whole" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="242dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="19dp"
+        android:text="-4  -3  -2  -1   0   1   2   3   4   5"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/graph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView151" />
+
+
+</android.support.constraint.ConstraintLayout>
